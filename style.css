@@ -1,6 +1,16 @@
+body{
+    font-family: 'Kosugi Maru', sans-serif;
+}
 .text-main{
-    color:#FCEEEB;
+    color:#ff80ab;
 }
 .bg-main{
-    background-color: #FCEEEB;
+    background-color: #ff80ab;
+}
+
+.text-sub{
+    color:#76ff03;
+}
+.bg-sub{
+    background-color: #76ff03;
 }
