@@ -4,7 +4,7 @@ var text;
 $(function(){
     $(window).on('load',function(){
         if(Cookies.get('item')){
-            $('#roulette-text').text(text);
+            $('#roulette-text').text(Cookies.get('item'));
             $('#stop-btn').prop('disabled',true);
         }
     });
