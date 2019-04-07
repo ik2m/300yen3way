@@ -1,12 +1,21 @@
 var random;
 var text;
+
 $(function(){
+    $(window).on('load',function(){
+        if(Cookies.get('item')){
+            $('#roulette-text').text(text);
+            $('#stop-btn').prop('disabled',true);
+        }
+    });
+    
 
     $('#stop-btn').on('click',function() {
         random=Math.random();
         console.log(random);
         text=setTextByRandNum(random);
         $('#roulette-text').text(text);
+        Cookies.set('item', text,{ expires: 1 /*,domain:'izumiikezaki.github.io'*/});
         $('#stop-btn').prop('disabled',true);
     })
     
