@@ -7,6 +7,7 @@ $(function(){
         console.log(random);
         text=setTextByRandNum(random);
         $('#roulette-text').text(text);
+        $('#stop-btn').prop('disabled',true);
     })
     
     function setTextByRandNum(randNum) {
