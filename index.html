@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar bg-main">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">300円で何買ってくる？</span>
+        </div>
+    </nav>
+    <div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 py-2">
+            <h4>ルーレット</h4>
+            <p class="text-center ">？？？</p>
+            <div >
+                <button type="button" class="btn btn-primary rounded-pill">スタート！</button>
+                <button type="button" class="btn btn-success rounded-pill">ストップ！</button>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 py-2">
+            <h4>排出確率</h4>
+            <table class="table">
+                <caption>テーブルの表題</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">アイテム</th>
+                            <th scope="col">確率</th>
+                          </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>おかし</td>
+                            <td>50％</td>
+                        </tr>
+                        <tr>
+                            <td>ジュース</td>
+                            <td>30％</td>
+                        </tr>
+                        <tr>
+                            <td>お茶</td>
+                            <td>20％</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="progress" style="height:3rem">
+                    <div class="progress-bar" role="progressbar" style="width: 50%"  aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 30%"  aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+        </div> 
+
+    </div>
+    </div>
+  </body>
+</html>
