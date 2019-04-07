@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>300円で何買ってくる？</title>
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,22 +13,23 @@
 
   </head>
   <body>
-    <nav class="navbar bg-main">
+    <nav class="navbar navbar-dark bg-main">
         <div class="container">
-            <span class="navbar-brand mb-0 h1">300円で何買ってくる？</span>
-            <a class="nav-link" href="https://github.com/izumiikezaki/300yen3way"><i class="fab fa-github fa-2x"></i></a>
+            <span class="navbar-brand mb-1 h1">300円で何買ってくる？</span>
+            <a class="nav-link text-dark" href="https://github.com/izumiikezaki/300yen3way"><i class="fab fa-github fa-2x"></i></a>
         </div>
     </nav>
     <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6 py-2">
+        <div class="col-12 col-md-6 py-2 py-md-5">
             <h4>ルーレット</h4>
-            <p class="text-center display-4 font-weight-bold" id="roulette-text">？？？</p>
-            <div class="text-center">
-                <button type="button" class="btn btn-success rounded-pill" id="stop-btn">押してね</button>
+            <p class="text-center display-4 font-weight-bold m-3" id="roulette-text">？？？</p>
+            <div class="text-center m-2">
+                <button type="button" class="btn btn-success rounded-pill shadow-sm" id="stop-btn">押してね</button>
             </div>
+            <div class="alert alert-info" role="alert"><strong>【注意】</strong>ルーレットを回せるのは１日１回です</div>
         </div>
-        <div class="col-12 col-md-6 py-2">
+        <div class="col-12 col-md-6 py-2 py-md-5">
             <h4>排出確率</h4>
             <table class="table">
                     <thead>
