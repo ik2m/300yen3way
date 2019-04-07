@@ -15,7 +15,7 @@ $(function(){
         console.log(random);
         text=setTextByRandNum(random);
         $('#roulette-text').text(text);
-        Cookies.set('item', text,{ expires: 1 /*,domain:'izumiikezaki.github.io'*/});
+        Cookies.set('item', text,{ expires: 1 ,domain:'izumiikezaki.github.io'});
         $('#stop-btn').prop('disabled',true);
     })
     
